@@ -120,9 +120,6 @@ header > h1 {
 .conteudo > h4 {
     text-align: center;
 }
-.conteudo > img {
-    margin-left: 170px;
-}
 
 .sla1 {
     background-color: rgb(122, 41, 199);
@@ -162,3 +159,6 @@ header > h1 {
     color: white;
 }
 
+.center {
+    text-align: center;
+}
