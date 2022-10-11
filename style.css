@@ -1,0 +1,164 @@
+body {
+    background-color: #686868d3;
+    margin: 0%;
+    margin-top: -27px;
+}
+
+.botao1 {
+    background-color: rgb(204, 204, 204);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 5px;
+}
+.botao2 {
+    background-color: rgb(204, 204, 204);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 5px;
+}
+.botao3 {
+    background-color: rgb(204, 204, 204);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 5px;
+}
+.botao4 {
+    background-color: rgb(204, 204, 204);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 5px;
+}
+.botao5 {
+    background-color: rgb(204, 204, 204);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 5px;
+}
+
+
+header {
+    background-color: rgb(85, 85, 85);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 0%;
+    margin-bottom: -10px;
+    padding-bottom: 6px;
+    max-height: 90px;
+}
+header > p {
+    background-color:rgb(122, 41, 199);
+    font-size: 25px;
+    border-radius: 10cm;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    padding-top: -px;
+    font-family: monospace;
+}
+
+header > h1 {
+    font-size: 35px;
+    padding-top: 10px;
+    font-family: monospace;
+    text-align: center;
+}
+
+.conteudo {
+    background-color: rgb(255, 255, 255);
+    margin-top: 3%;
+    margin-bottom: 02%;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0 4px 20px rgb(0 0 0 / 8%), 0 2px 4px rgb(0 0 0 / 5%);
+    border-radius: 5px;
+    padding: 1rem;
+    font-family: Roboto,system-ui,-apple-system,Segoe UI,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+.conteudo > h1 {
+    font-size: 32px;
+}
+.conteudo > h2 {
+    font-size: 26px;
+}
+.conteudo > p {
+    font-size: 20px;
+}
+.escolhas > input {
+    border-radius: 6px;
+    background-color: rgb(122, 41, 199);
+    margin-left: 43%;
+}
+.conteudo > h3 {
+    text-align: center;
+}
+.conteudo > h4 {
+    text-align: center;
+}
+.conteudo > img {
+    margin-left: 170px;
+}
+
+.sla1 {
+    background-color: rgb(122, 41, 199);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-radius: 15px;
+    font-family: Roboto,system-ui,-apple-system,Segoe UI,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    text-align: center;
+    font-size: 22px;
+    display: inline-block;
+    color: white;
+}
+
+.sla2 {
+    background-color: rgb(204, 204, 204);
+    padding: 5px;
+    border-radius: 15px;
+    padding-left: 290px;
+    padding-right: 290px;
+    font-family: Roboto,system-ui,-apple-system,Segoe UI,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    color: white;
+}
+
+.sla3 {
+    background-color: rgb(122, 41, 199);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 236px;
+    padding-right: 236px;
+    border-radius: 15px;
+    font-family: Roboto,system-ui,-apple-system,Segoe UI,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    text-align: center;
+    font-size: 22px;
+    display: inline-block;
+    color: white;
+}
+

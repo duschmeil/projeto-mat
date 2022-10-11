@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios Equação do Segundo Grau</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" href="script.js">
+</head>
+<body>
+<header>
+    <h1>Aprenda Mat</h1>
+    <p>O melhor site para aprender matemática!</p>
+</header>
+
+    <div class="conteudo">
+        <h1>
+            Exercícios Equação do Segundo Grau
+        </h1>
+        <h2>Ex01</h2>
+        <p>x² - 8x + 6 = 0</p>
+        <h2>Ex02</h2>
+        <p>8x² - 16x + 32 = 0</p>
+        <h2>Ex03</h2>
+        <p>x²  + 3x - 28 = 0</p>
+        <div class="escolhas">
+                <button class="botao1"><input type="radio" value="errada1" name="escolha3">
+                9 </button> <br>
+                <button class="botao2"><input type="radio" value="certa" name="escolha3">
+                7 </button> <br>
+                <button class="botao3"><input type="radio" value="errada2" name="escolha3">
+                5 </button> <br>
+                <button class="botao4"><input type="radio" value="errada3" name="escolha3">
+                4 </button> <br>
+                <button class="botao5"><input type="radio" value="errada4" name="escolha3">
+                6 </button> <br>
+                <p id="resultado">Resposta selecionada: </p>
+                <input type="submit" value="Enviar Resposta" name="enviarresp" class="img">
+        
+        </div>
+        <h2>Ex04</h2>
+        <p>5x² - 3x - 2 = 0</p>
+    </div>
+    <script>
+        let radiobtns = document.querySelectorAll
+        ("input[name='escolha3']");
+        let resultado = document.getElementById("resultado")
+        let acharresp = () => {
+            let resp = document.querySelector("input[name='escolha3']:checked").value;
+            resultado.textContent = `Resposta selecionada: ${resp}`;
+        }
+        radiobtns.forEach(radiobtn => {
+            radiobtn.addEventListener("change", acharresp);
+        });
+        acharresp();
+    </script>
+</body>
+</html>
