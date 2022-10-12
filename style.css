@@ -102,25 +102,19 @@ header > h1 {
 }
 .conteudo > h1 {
     font-size: 32px;
-    text-align: center;
 }
 .conteudo > h2 {
     font-size: 26px;
-    text-align: center;
 }
 .conteudo > p {
     font-size: 20px;
-    text-align: center;
 }
 .escolhas > input {
     border-radius: 6px;
     background-color: rgb(122, 41, 199);
     margin-left: 43%;
 }
-.conteudo > h3 {
-    text-align: center;
-}
-.conteudo > h4 {
+.centralizado {
     text-align: center;
 }
 
