@@ -136,6 +136,7 @@ header > h1 {
     font-size: 22px;
     display: inline-block;
     color: white;
+    text-decoration: none;
 }
 
 .sla2 {
@@ -146,6 +147,7 @@ header > h1 {
     padding-right: 290px;
     font-family: Roboto,system-ui,-apple-system,Segoe UI,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
     color: white;
+    text-decoration: none;
 }
 
 .sla3 {
@@ -160,6 +162,7 @@ header > h1 {
     font-size: 22px;
     display: inline-block;
     color: white;
+    text-decoration: none;
 }
 
 .center {
