@@ -162,3 +162,14 @@ header > h1 {
 .center {
     text-align: center;
 }
+
+.verResp {
+    background-color: rgb(134, 62, 201);
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px ;
+    border-color: rgb(134, 62, 201);
+    color: white;
+    font-family: Roboto,system-ui,-apple-system,Segoe UI,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-weight: bold;
+}
