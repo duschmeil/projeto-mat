@@ -70,6 +70,7 @@ header {
     padding-bottom: 6px;
     max-height: 90px;
 }
+
 header > p {
     background-color:rgb(122, 41, 199);
     font-size: 25px;
@@ -87,13 +88,15 @@ header > h1 {
     padding-top: 10px;
     font-family: monospace;
     text-align: center;
+    color: white;
+    text-decoration: none;
 }
 
 .conteudo {
     background-color: rgb(255, 255, 255);
     margin-top: 3%;
     margin-bottom: 02%;
-    margin-left: 25%;
+    margin-left: 25% ;
     margin-right: 25%;
     box-shadow: 0 4px 20px rgb(0 0 0 / 8%), 0 2px 4px rgb(0 0 0 / 5%);
     border-radius: 5px;
@@ -109,11 +112,7 @@ header > h1 {
 .conteudo > p {
     font-size: 20px;
 }
-.escolhas > input {
-    border-radius: 6px;
-    background-color: rgb(122, 41, 199);
-    margin-left: 43%;
-}
+
 .centralizado {
     text-align: center;
 }
@@ -172,4 +171,10 @@ header > h1 {
     color: white;
     font-family: Roboto,system-ui,-apple-system,Segoe UI,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
     font-weight: bold;
+}
+
+.linkInicial {
+    color: rgb(134, 62, 201);
+    text-align: center;
+    
 }
