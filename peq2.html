@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicios Equação do Segundo Grau</title>
+    <title>Biruliro</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="script" href="script.js">
 </head>
 <body>
 <header>
-    <h1>Aprenda Mat</h1>
+    <h1>Biruliro</h1>
     <p>O melhor site para aprender matemática!</p>
 </header>
 
@@ -19,7 +18,7 @@
             Exercícios Equação do Segundo Grau
         </h1>
         <h2>Ex01</h2>
-        <h3>x² - 8x + 6 = 0</h3>
+        <h3>x² - 8x + 16 = 0</h3>
         <input type="button" value="Ver Resposta" class="verResp" id="Resp1" onclick="mostrarResp1()">
         <h2>Ex02</h2>
         <h3>8x² - 16x + 32 = 0</h3>
@@ -30,6 +29,9 @@
         <h2>Ex04</h2>
         <h3>5x² - 3x - 2 = 0</h3>
         <input type="button" value="Ver Resposta" class="verResp" id="Resp4" onclick="mostrarResp4()">
+        <h2>Ex05</h2>
+        <h3>x² + 0,5x - 1,5 = 0</h3>
+        <input type="button" value="Ver Resposta" class="verResp" id="Resp5" onclick="mostrarResp5()">
 
         <p class="linkInicial"><a href="index.html" class="linkInicial">Voltar a Página Inicial</a></p>
     </div>
@@ -37,25 +39,31 @@
         function mostrarResp1() {
             let resp3 = document.getElementById("Resp1");
             console.log(resp3.value);
-            resp3.value = "Resposta: 7";
+            resp3.value = "Resposta: x = 4";
             console.log(resp3.value);
         }
         function mostrarResp2() {
             let resp3 = document.getElementById("Resp2");
             console.log(resp3.value);
-            resp3.value = "Resposta: 7";
+            resp3.value = "Resposta: x ∉ R";
             console.log(resp3.value);
         }
         function mostrarResp3() {
             let resp3 = document.getElementById("Resp3");
             console.log(resp3.value);
-            resp3.value = "Resposta: 7";
+            resp3.value = "Resposta: x' = -7 e x'' = 4";
             console.log(resp3.value);
         }
         function mostrarResp4() {
             let resp3 = document.getElementById("Resp4");
             console.log(resp3.value);
-            resp3.value = "Resposta: 7";
+            resp3.value = "Resposta: x' = -0,4 e x'' = 1";
+            console.log(resp3.value);
+        }
+        function mostrarResp5() {
+            let resp3 = document.getElementById("Resp5");
+            console.log(resp3.value);
+            resp3.value = "Resposta: x' = -1,5 e x'' = 1";
             console.log(resp3.value);
         }
         //arrumar valores das repostas com tuca
